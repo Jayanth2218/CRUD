@@ -1,0 +1,88 @@
+body {
+  font-family:'Arial',sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* Ensure the body covers the full viewport height */
+  background-image: url('../src/assets/bg.jpg'); /* Path to your background image */
+  background-size: cover; /* Cover the entire background */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* No repeat */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  font-family: 'Arial', sans-serif;
+  width: 100%;
+  max-width: 600px; /* Optional: Limit the form width */
+  background-color: rgba(255, 255, 255, 0.115); /* Increased transparency */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+h2 {
+  color: #ffffff; /* White color for the heading */
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.user-form, .user-list {
+  margin-bottom: 30px;
+}
+
+.form-group label {
+  color: #ffffff; /* White color for labels */
+  display: block;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 0.5px solid #cccccc;
+  box-sizing: border-box;
+  font-size: 16px;
+  background-color: rgba(255, 255, 255, 0.3); /* Transparent input background */
+  color: #ffffff; /* White color for input text */
+}
+
+button {
+  background-color: #769dc7;
+  color: white;
+  border: none;
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #486a8f;
+}
+
+table th, table td {
+  color: #ffffff; /* White color for table text */
+  padding: 12px 15px;
+  text-align: left;
+  border-radius: 4px ;
+  border-bottom: 1px solid #dddddd;
+}
+
+table th {
+  background-color: #769dc7;
+  color: #ffffff; /* White color for table headers */
+  font-weight: bold;
+}
+
+table td button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-size: 14px;
+}
